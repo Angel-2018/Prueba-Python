@@ -1,0 +1,31 @@
+18a19,43
+> -- Table structure for table `nombre_de_la_tabla`
+> --
+> 
+> DROP TABLE IF EXISTS `nombre_de_la_tabla`;
+> /*!40101 SET @saved_cs_client     = @@character_set_client */;
+> /*!40101 SET character_set_client = utf8 */;
+> CREATE TABLE `nombre_de_la_tabla` (
+>   `id` int(11) NOT NULL,
+>   `nombre` varchar(50) DEFAULT NULL,
+>   `edad` int(11) DEFAULT NULL,
+>   PRIMARY KEY (`id`)
+> ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+> /*!40101 SET character_set_client = @saved_cs_client */;
+> 
+> --
+> -- Dumping data for table `nombre_de_la_tabla`
+> --
+> 
+> LOCK TABLES `nombre_de_la_tabla` WRITE;
+> /*!40000 ALTER TABLE `nombre_de_la_tabla` DISABLE KEYS */;
+> INSERT INTO `nombre_de_la_tabla` VALUES (0,NULL,NULL),(1,'John',25),(2,'Jane',30),(3,'Robert',22),(4,'Emily',28);
+> /*!40000 ALTER TABLE `nombre_de_la_tabla` ENABLE KEYS */;
+> UNLOCK TABLES;
+> 
+> --
+74c99
+< -- Dump completed on 2023-11-19 22:09:01
+---
+> -- Dump completed on 2023-11-20 15:21:57
+Fecha del respaldo: 2023-11-20 15:21:57.163899
